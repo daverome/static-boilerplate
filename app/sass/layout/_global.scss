@@ -1,0 +1,16 @@
+body {
+    color: $color-primary;
+    font-family: $font-primary;
+    @include font-size(16);
+    line-height: 1.4;
+}
+
+.container {
+    margin: 0 auto;
+    padding: 0 $page-padding;
+    width: $page-width;
+}
+
+img {
+    max-width: 100%;
+}

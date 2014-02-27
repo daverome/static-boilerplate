@@ -1,0 +1,326 @@
+/* line 2, ../../app/sass/vendor/neat/grid/_grid.scss */
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+/* line 18, ../../app/sass/base/_reset.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+/* line 28, ../../app/sass/base/_reset.scss */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+/* line 31, ../../app/sass/base/_reset.scss */
+body {
+  line-height: 1;
+}
+
+/* line 34, ../../app/sass/base/_reset.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 37, ../../app/sass/base/_reset.scss */
+blockquote, q {
+  quotes: none;
+}
+
+/* line 41, ../../app/sass/base/_reset.scss */
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+/* line 45, ../../app/sass/base/_reset.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 1, ../../app/sass/base/_helpers.scss */
+.hidden {
+  display: none !important;
+  visibility: hidden;
+}
+
+/*
+ * Hide only visually, but have it available for screenreaders: h5bp.com/v
+ */
+/* line 9, ../../app/sass/base/_helpers.scss */
+.visuallyhidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+
+/*
+ * Hide visually and from screenreaders, but maintain layout
+ */
+/* line 23, ../../app/sass/base/_helpers.scss */
+.invisible {
+  visibility: hidden;
+}
+
+/* line 27, ../../app/sass/base/_helpers.scss */
+.browsehappy {
+  margin: 0.2em 0;
+  background: #ccc;
+  color: #000;
+  padding: 0.2em 0;
+}
+
+/* line 1, ../../app/sass/base/_typography.scss */
+h1 {
+  font-size: 36px;
+  font-size: 2.25rem;
+}
+
+/* line 5, ../../app/sass/base/_typography.scss */
+h2 {
+  font-size: 30px;
+  font-size: 1.875rem;
+}
+
+/* line 9, ../../app/sass/base/_typography.scss */
+h3 {
+  font-size: 24px;
+  font-size: 1.5rem;
+}
+
+/* line 13, ../../app/sass/base/_typography.scss */
+h4 {
+  font-size: 18px;
+  font-size: 1.125rem;
+}
+
+/* line 17, ../../app/sass/base/_typography.scss */
+h5 {
+  font-size: 14px;
+  font-size: 0.875rem;
+}
+
+/* line 21, ../../app/sass/base/_typography.scss */
+h6 {
+  font-size: 12px;
+  font-size: 0.75rem;
+}
+
+/* line 25, ../../app/sass/base/_typography.scss */
+p {
+  font-size: 12px;
+  font-size: 0.75rem;
+}
+
+/* line 1, ../../app/sass/base/_grid.scss */
+.row {
+  *zoom: 1;
+  display: block;
+}
+/* line 18, ../../app/sass/vendor/bourbon/addons/_clearfix.scss */
+.row:before, .row:after {
+  content: " ";
+  display: table;
+}
+/* line 23, ../../app/sass/vendor/bourbon/addons/_clearfix.scss */
+.row:after {
+  clear: both;
+}
+
+/* line 6, ../../app/sass/base/_grid.scss */
+.span1 {
+  display: block;
+  float: left;
+  margin-right: 2.35765%;
+  width: 6.17215%;
+}
+/* line 33, ../../app/sass/vendor/neat/grid/_span-columns.scss */
+.span1:last-child {
+  margin-right: 0;
+}
+
+/* line 6, ../../app/sass/base/_grid.scss */
+.span2 {
+  display: block;
+  float: left;
+  margin-right: 2.35765%;
+  width: 14.70196%;
+}
+/* line 33, ../../app/sass/vendor/neat/grid/_span-columns.scss */
+.span2:last-child {
+  margin-right: 0;
+}
+
+/* line 6, ../../app/sass/base/_grid.scss */
+.span3 {
+  display: block;
+  float: left;
+  margin-right: 2.35765%;
+  width: 23.23176%;
+}
+/* line 33, ../../app/sass/vendor/neat/grid/_span-columns.scss */
+.span3:last-child {
+  margin-right: 0;
+}
+
+/* line 6, ../../app/sass/base/_grid.scss */
+.span4 {
+  display: block;
+  float: left;
+  margin-right: 2.35765%;
+  width: 31.76157%;
+}
+/* line 33, ../../app/sass/vendor/neat/grid/_span-columns.scss */
+.span4:last-child {
+  margin-right: 0;
+}
+
+/* line 6, ../../app/sass/base/_grid.scss */
+.span5 {
+  display: block;
+  float: left;
+  margin-right: 2.35765%;
+  width: 40.29137%;
+}
+/* line 33, ../../app/sass/vendor/neat/grid/_span-columns.scss */
+.span5:last-child {
+  margin-right: 0;
+}
+
+/* line 6, ../../app/sass/base/_grid.scss */
+.span6 {
+  display: block;
+  float: left;
+  margin-right: 2.35765%;
+  width: 48.82117%;
+}
+/* line 33, ../../app/sass/vendor/neat/grid/_span-columns.scss */
+.span6:last-child {
+  margin-right: 0;
+}
+
+/* line 6, ../../app/sass/base/_grid.scss */
+.span7 {
+  display: block;
+  float: left;
+  margin-right: 2.35765%;
+  width: 57.35098%;
+}
+/* line 33, ../../app/sass/vendor/neat/grid/_span-columns.scss */
+.span7:last-child {
+  margin-right: 0;
+}
+
+/* line 6, ../../app/sass/base/_grid.scss */
+.span8 {
+  display: block;
+  float: left;
+  margin-right: 2.35765%;
+  width: 65.88078%;
+}
+/* line 33, ../../app/sass/vendor/neat/grid/_span-columns.scss */
+.span8:last-child {
+  margin-right: 0;
+}
+
+/* line 6, ../../app/sass/base/_grid.scss */
+.span9 {
+  display: block;
+  float: left;
+  margin-right: 2.35765%;
+  width: 74.41059%;
+}
+/* line 33, ../../app/sass/vendor/neat/grid/_span-columns.scss */
+.span9:last-child {
+  margin-right: 0;
+}
+
+/* line 6, ../../app/sass/base/_grid.scss */
+.span10 {
+  display: block;
+  float: left;
+  margin-right: 2.35765%;
+  width: 82.94039%;
+}
+/* line 33, ../../app/sass/vendor/neat/grid/_span-columns.scss */
+.span10:last-child {
+  margin-right: 0;
+}
+
+/* line 6, ../../app/sass/base/_grid.scss */
+.span11 {
+  display: block;
+  float: left;
+  margin-right: 2.35765%;
+  width: 91.4702%;
+}
+/* line 33, ../../app/sass/vendor/neat/grid/_span-columns.scss */
+.span11:last-child {
+  margin-right: 0;
+}
+
+/* line 6, ../../app/sass/base/_grid.scss */
+.span12 {
+  display: block;
+  float: left;
+  margin-right: 2.35765%;
+  width: 100%;
+}
+/* line 33, ../../app/sass/vendor/neat/grid/_span-columns.scss */
+.span12:last-child {
+  margin-right: 0;
+}
+
+/* line 1, ../../app/sass/layout/_global.scss */
+body {
+  color: gray;
+  font-family: "Open Sans", "Helvetica Neue", "Arial", sans-serif;
+  font-size: 16px;
+  font-size: 1rem;
+  line-height: 1.4;
+}
+
+/* line 8, ../../app/sass/layout/_global.scss */
+.container {
+  margin: 0 auto;
+  padding: 0 10px;
+  width: 1000px;
+}
+
+/* line 14, ../../app/sass/layout/_global.scss */
+img {
+  max-width: 100%;
+}

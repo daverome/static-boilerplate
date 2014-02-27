@@ -1,0 +1,228 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+.hidden {
+  display: none !important;
+  visibility: hidden; }
+
+/*
+ * Hide only visually, but have it available for screenreaders: h5bp.com/v
+ */
+.visuallyhidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px; }
+
+/*
+ * Hide visually and from screenreaders, but maintain layout
+ */
+.invisible {
+  visibility: hidden; }
+
+.browsehappy {
+  margin: 0.2em 0;
+  background: #ccc;
+  color: #000;
+  padding: 0.2em 0; }
+
+h1 {
+  font-size: 36px;
+  font-size: 2.25rem; }
+
+h2 {
+  font-size: 30px;
+  font-size: 1.875rem; }
+
+h3 {
+  font-size: 24px;
+  font-size: 1.5rem; }
+
+h4 {
+  font-size: 18px;
+  font-size: 1.125rem; }
+
+h5 {
+  font-size: 14px;
+  font-size: 0.875rem; }
+
+h6 {
+  font-size: 12px;
+  font-size: 0.75rem; }
+
+p {
+  font-size: 12px;
+  font-size: 0.75rem; }
+
+.row {
+  *zoom: 1;
+  display: block; }
+  .row:before, .row:after {
+    content: " ";
+    display: table; }
+  .row:after {
+    clear: both; }
+
+.span1 {
+  display: block;
+  float: left;
+  margin-right: 2.35765%;
+  width: 6.17215%; }
+  .span1:last-child {
+    margin-right: 0; }
+
+.span2 {
+  display: block;
+  float: left;
+  margin-right: 2.35765%;
+  width: 14.70196%; }
+  .span2:last-child {
+    margin-right: 0; }
+
+.span3 {
+  display: block;
+  float: left;
+  margin-right: 2.35765%;
+  width: 23.23176%; }
+  .span3:last-child {
+    margin-right: 0; }
+
+.span4 {
+  display: block;
+  float: left;
+  margin-right: 2.35765%;
+  width: 31.76157%; }
+  .span4:last-child {
+    margin-right: 0; }
+
+.span5 {
+  display: block;
+  float: left;
+  margin-right: 2.35765%;
+  width: 40.29137%; }
+  .span5:last-child {
+    margin-right: 0; }
+
+.span6 {
+  display: block;
+  float: left;
+  margin-right: 2.35765%;
+  width: 48.82117%; }
+  .span6:last-child {
+    margin-right: 0; }
+
+.span7 {
+  display: block;
+  float: left;
+  margin-right: 2.35765%;
+  width: 57.35098%; }
+  .span7:last-child {
+    margin-right: 0; }
+
+.span8 {
+  display: block;
+  float: left;
+  margin-right: 2.35765%;
+  width: 65.88078%; }
+  .span8:last-child {
+    margin-right: 0; }
+
+.span9 {
+  display: block;
+  float: left;
+  margin-right: 2.35765%;
+  width: 74.41059%; }
+  .span9:last-child {
+    margin-right: 0; }
+
+.span10 {
+  display: block;
+  float: left;
+  margin-right: 2.35765%;
+  width: 82.94039%; }
+  .span10:last-child {
+    margin-right: 0; }
+
+.span11 {
+  display: block;
+  float: left;
+  margin-right: 2.35765%;
+  width: 91.4702%; }
+  .span11:last-child {
+    margin-right: 0; }
+
+.span12 {
+  display: block;
+  float: left;
+  margin-right: 2.35765%;
+  width: 100%; }
+  .span12:last-child {
+    margin-right: 0; }
+
+body {
+  color: gray;
+  font-family: "Open Sans", "Helvetica Neue", "Arial", sans-serif;
+  font-size: 16px;
+  font-size: 1rem;
+  line-height: 1.4; }
+
+.container {
+  margin: 0 auto;
+  padding: 0 10px;
+  width: 1000px; }
+
+img {
+  max-width: 100%; }

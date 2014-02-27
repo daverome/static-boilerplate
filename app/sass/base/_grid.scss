@@ -1,0 +1,9 @@
+.row {
+    @include row();
+}
+
+@for $i from 1 through ($grid-columns) {
+    .span#{$i} {
+        @include span-columns($i);
+    }
+}
